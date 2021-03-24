@@ -10143,3 +10143,53 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.deck{
+  display: flex;
+}
+
+.card-space:hover .card{
+  transform: rotateY(-180deg);
+}
+
+.card{
+  border-radius: 10px;
+  height: 300px;
+  margin: 10px;
+  /* margin-top: 10px; */
+  width: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;}
+  .card h1{
+    margin-top: 5px;
+  }
+  .card p{
+    margin-top: 0px;
+  }
+
+.face{
+  border-radius: 10px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: lighten (hsla(210, 50%, 40%, 1),5%);
+}
+  .face h1{
+    padding: 0;
+  }
+
+  .front{
+    text-align: center;
+    z-index: 20;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    /* font-size: 100px; */
+    color: var(--orange);   
+  }
+  .back{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+  }
