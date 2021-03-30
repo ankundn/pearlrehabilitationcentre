@@ -10075,8 +10075,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  /* background-color: orange; */
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background-color: rgba(244, 98, 58, 0.9);
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/fullsize/facility.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10151,23 +10151,51 @@ header.masthead h1 {
 
 .card-space:hover .card{
   transform: rotateY(-180deg);
+  /* opacity: 1.0; */
 }
 
 .card{
   border-radius: 10px;
   height: 300px;
   margin: 10px;
-  /* margin-top: 10px; */
   width: 300px;
   position: relative;
   transform-style: preserve-3d;
-  transition: all 0.5s ease;}
+  transition: all 0.5s ease;
+  /* background-color: red; */
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/fullsize/facility.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;   
+}
   .card h1{
     margin-top: 5px;
   }
   .card p{
     margin-top: 0px;
   }
+ 
+  
+  /* @media (max-width: 992px) {
+    .card-space {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-space {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-space {
+      width: 100px;
+    }
+  } */
+  
+  
 
 .face{
   border-radius: 10px;
@@ -10185,31 +10213,23 @@ header.masthead h1 {
   .front{
     text-align: center;
     z-index: 20;
+    margin-top: 33%;
     backface-visibility: hidden;
     transform: rotateY(0deg);
-    /* font-size: 100px; */
     color: var(--orange);  
-    /* font-size: smaller;  */
+   
   }
   .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
+    color: rgba(244, 98, 58, 0.9);
   }
-
-
-
-
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
-  
-  /* body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffffff;
-  } */
+ 
   
   h1.demo-title {
     text-align: center;
