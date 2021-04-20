@@ -9986,7 +9986,9 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  /* border-color: #f4623a; */
+  border-color: #FFC5B2;
+
 }
 
 hr.light {
@@ -10077,7 +10079,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background-color: rgba(244, 98, 58, 0.9);
+  background-color: #FFB2B2;
+  /* background-color: rgba(244, 98, 58, 0.9); */
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/fullsize/facility.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -10126,7 +10129,8 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background:  #FECAB1;
+  /* background: rgba(244, 98, 58, 0.9); */
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -10224,7 +10228,8 @@ header.masthead h1 {
   .back{
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    color: rgba(244, 98, 58, 0.9);
+    /* color: rgba(244, 98, 58, 0.9); */
+    color:  #FECAB1;
   }
   *,
   *::before,
@@ -10576,8 +10581,8 @@ header.masthead h1 {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  
-  color: rgba(244, 98, 58, 0.9);;
+  color:  #FECAB1;
+  /* color: rgba(244, 98, 58, 0.9);; */
   text-align: center;
   z-index: 20;
   /* margin-top: 33%; */
@@ -10607,3 +10612,7 @@ header.masthead h1 {
 .flip-card-text {
   margin-top: 23%;
 }
+
+
+
+/* original color was rgb(244,98,58,0.9 */
