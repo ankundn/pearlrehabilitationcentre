@@ -199,6 +199,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+ 
 }
 
 svg {
@@ -551,7 +552,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -3925,7 +3929,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #FFB2B2;
 }
 
 .nav-fill > .nav-link,
@@ -4576,13 +4580,13 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #f4623a;
+  color:#FFB2B2;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
-  color: #d6370c;
+  color: #FFB2B2;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4605,8 +4609,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #FFB2B2;
+  border-color: #FFB2B2;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5042,8 +5046,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #FFB2B2;
+  border-color: #FFB2B2;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6073,7 +6077,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #FFB2B2 !important;
+  font-size: 30;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6300,6 +6305,7 @@ button.bg-dark:focus {
 
 .d-block {
   display: block !important;
+  color: #FFB2B2;
 }
 
 .d-table {
@@ -9775,7 +9781,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #FFB2B2 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9987,8 +9993,14 @@ hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
   /* border-color: #f4623a; */
-  border-color: #FFC5B2;
+  border-color: #f5f5f5;
 
+}
+
+hr.programdivider {
+  border-color: #FFB2B2;
+  max-width: 3.25rem;
+  border-width: 0.2rem;
 }
 
 hr.light {
@@ -10010,7 +10022,9 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
+  
 }
+
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -10030,10 +10044,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #FFB2B2;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #FFB2B2 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10064,13 +10078,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #FFB2B2;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #FFB2B2;
   }
 }
 
@@ -10079,8 +10093,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
+  background-color: #E2CACE;
   background-color: #FFB2B2;
-  /* background-color: rgba(244, 98, 58, 0.9); */
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/portfolio/fullsize/facility.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -10089,6 +10103,28 @@ header.masthead {
 }
 header.masthead h1 {
   font-size: 2.25rem;
+}
+.title {
+  color: #f5f5f5;
+  font-weight:bolder;
+} 
+
+.modetitle {
+  color: #f5f5f5;
+  font-weight:bold;
+}
+.assessmenttitle{
+  color: #f5f5f5;
+  font-size: 30;
+}
+
+.admissiontitle{
+  color: #f5f5f5;
+  font-size: 30;
+}
+.paragraph {
+  color: #f5f5f5;
+  font-size: x-small;
 }
 @media (min-width: 992px) {
   header.masthead {
@@ -10129,7 +10165,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background:  #FECAB1;
+  background:  #FFB2B2;
   /* background: rgba(244, 98, 58, 0.9); */
   transition: opacity 0.25s ease;
   text-align: center;
@@ -10257,9 +10293,18 @@ header.masthead h1 {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    background:  #f4623a;
+    background:  #FFB2B2;
     align-content: center;
     margin-left: 20;
+  
+  }
+
+  .treatmentcharges {
+    background:  #FFB2B2;
+  }
+
+  .admission {
+    background-color: #FFB2B2;
   }
   
   .pricing-table .ptable-item {
@@ -10301,6 +10346,8 @@ header.masthead h1 {
     text-align: center;
     overflow: hidden;
   }
+
+ 
   
   .pricing-table .ptable-status ,
   .pricing-table .ptable-title,
@@ -10310,6 +10357,7 @@ header.masthead h1 {
     position: relative;
     width: 100%;
     text-align: center;
+  
   }
   
   .pricing-table .ptable-single {
@@ -10348,7 +10396,7 @@ header.masthead h1 {
   }
   
   .pricing-table .ptable-item.featured-item .ptable-header {
-    background: #FF6F61;
+    background: #FFB2B2;
   }
   
   .pricing-table .ptable-status {
@@ -10458,12 +10506,12 @@ header.masthead h1 {
   
   .pricing-table .ptable-action a:hover {
     color: #2A293E;
-    background: #FF6F61;
+    background: #FFB2B2;
   }
   
   .pricing-table .ptable-item.featured-item .ptable-action a {
     color: #2A293E;
-    background: #FF6F61;
+    background: #FFB2B2;
   }
   
   .pricing-table .ptable-item.featured-item .ptable-action a:hover {
@@ -10577,11 +10625,12 @@ header.masthead h1 {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  color:  #FECAB1;
+  color:  #FFB2B2;
   /* color: rgba(244, 98, 58, 0.9);; */
   text-align: center;
   z-index: 20;
@@ -10601,7 +10650,7 @@ header.masthead h1 {
 /* Style the back side */
 .flip-card-back {
   /* background-color: dodgerblue; */
-  color: white; 
+  color: #f5f5f5; 
   transform: rotateY(180deg);
 
   transform: rotateY(180deg);
@@ -10611,6 +10660,18 @@ header.masthead h1 {
 
 .flip-card-text {
   margin-top: 23%;
+}
+
+.slogan {
+  color: #f5f5f5;
+}
+
+#treatmentcharges {
+  background-color: red;
+}
+
+#fas {
+  color: red;
 }
 
 
